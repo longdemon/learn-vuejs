@@ -1,11 +1,11 @@
 <template>
-  <div id="about" class="about-container d-flex justify-content-center align-items-center vh-md-100 p-5 p-md-0">
+  <div id="about" class="about-container d-flex justify-content-center align-items-center vh-md-100 p-5 p-lg-0">
     <div class="d-flex flex-lg-row flex-column">
       <div class="about-container__img h-100 d-flex justify-content-center align-items-center col-lg-6 col-12">
         <img class="rounded-circle p-2" :src="img4" alt />
       </div>
       <div class="about-container__content d-flex flex-column align-items-center align-items-lg-start justify-content-center col-lg-6 col-12 gap-4 gap-lg-0">
-        <div class="about-container__title style-text font-dancing h1 px-1 pt-4 p-md-0">
+        <div class="about-container__title style-text font-dancing h1 px-1 pt-4 p-lg-0">
           <p>About us</p>
         </div>
         <div class="about-container__dess col-8 uppercase text-justify">
