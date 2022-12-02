@@ -94,5 +94,6 @@ const listCustomer = [
 }
 .carousel-position {
   position: absolute;
+  bottom: -70px;
 }
 </style>
