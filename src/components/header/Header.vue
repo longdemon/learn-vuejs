@@ -1,5 +1,5 @@
 <template>
-  <div id="header" class="header d-flex align-items-center px-2 py-4 h-100 py-2 py-sm-5">
+  <div id="header" class="header d-flex align-items-center px-2 py-4 py-2 py-sm-5">
     <div class="row w-100">
       <div class="top-bar__name col-6 font-dancing">
         <p class="style-text px-2 px-sm-5 h1">Annagaseh</p>

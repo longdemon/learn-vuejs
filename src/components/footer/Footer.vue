@@ -4,14 +4,14 @@
       <div class="name col-lg-2 col-10 text-center">
         <p class="style-text font-dancing px-1 h2">Annagaseh</p>
       </div>
-      <div class="list-menu col-lg-6 col-12 fw-bold px-5">
-        <ul class="d-flex justify-content-between">
+      <div class="list-menu col-lg-6 col-12 fw-bold px-5 d-flex justify-content-center justify-content-lg-between">
+        <ul class="d-flex justify-content-between flex-column flex-md-row w-100 align-items-center">
           <li v-for="(item, index) in listMenu" :key="index">
             <a :href="item.to">{{item.title}}</a>
           </li>
         </ul>
       </div>
-      <div class="subscribe-form col-lg-2 uppercase d-flex d-flex d-lg-block justify-content-between align-items-center">
+      <div class="subscribe-form col-lg-2 uppercase d-flex d-flex d-lg-block justify-content-between align-items-center flex-column flex-md-row">
         <div class="subscribe-form__title fw-bold h5 pe-3 pe-lg-0">subscribe the newsletter</div>
         <div class="subscribe-form__input d-flex">
           <input type="text" class="form-control" placeholder="EMAIL" />

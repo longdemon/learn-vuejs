@@ -96,4 +96,10 @@ const listCustomer = [
   position: absolute;
   bottom: -70px;
 }
+
+@media (max-width: 992px) {
+  .customer-name p {
+    font-size: 1rem !important;
+  }
+}
 </style>

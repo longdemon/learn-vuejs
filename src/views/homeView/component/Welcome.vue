@@ -4,10 +4,10 @@
       class="welcome-container__background d-flex justify-content-lg-center justify-content-start align-items-center position-absolute h-100 col-12 col-lg-6 uppercase fw-bold px-5 ps-lg-0"
     >
       <div class="welcome-container__content">
-        <p>welcome to</p>
+        <p class="text-welcome h4">welcome to</p>
         <p class="welcome-container__name style-text px-1 font-dancing">Annagaseh</p>
-        <p class="welcome-container__dess h2">hair and makeup artist</p>
-        <button class="mt-4">
+        <p class="welcome-container__dess h3">hair and makeup artist</p>
+        <button class="mt-1 mt-lg-4">
           <p class="style-text">make appointent</p>
         </button>
       </div>
@@ -61,4 +61,19 @@ import img2 from "../../../assets/img/img-2.jpg";
 .welcome-container__name {
   font-size: 5rem;
 }
+
+@media (max-width: 992px) {
+  .welcome-container__name {
+    font-size: 3rem;
+  }
+  .text-welcome{
+    font-size: 1rem !important;
+  }
+  .welcome-container__dess{
+    font-size: 1.2rem !important;
+  }
+}
+
+
+
 </style>

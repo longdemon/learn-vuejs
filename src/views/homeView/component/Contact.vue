@@ -5,8 +5,8 @@
       class="contact-dess col-lg-4 col-10 mb-5 text-center"
     >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores rem commodi obcaecati corrupti! Numquam rem cupiditate odit beatae aliquid. Molestias blanditiis sit, eaque error quibusdam molestiae repellendus? Molestiae, fugit deleniti.</div>
     <div class="contact-body d-flex gap-5 col-lg-8 col-10 justify-content-between flex-lg-row flex-column">
-      <div class="contact-body__info d-flex flex-lg-column flex-row col-lg-5 gap-4 col-12">
-        <div v-for="(contact,index) in listContact" :key="index" class="d-flex gap-2 align-items-center ms-lg-5 ms-0 flex-lg-row flex-column col-4 col-lg-12 justify-content-center justify-content-lg-start">
+      <div class="contact-body__info d-flex flex-lg-column flex-md-row flex-column col-lg-5 gap-4 col-12">
+        <div v-for="(contact,index) in listContact" :key="index" class="d-flex gap-2 align-items-center ms-lg-5 ms-0 flex-lg-row flex-column col-12 col-md-4 col-lg-12 justify-content-center justify-content-lg-start">
           <div class="infor__icon__wrapper rounded-circle d-flex justify-content-center align-items-center">
             <Icon class="info__icon" :icon="contact.icon"></Icon>
           </div>
