@@ -108,4 +108,10 @@ const isShowSideBar = ref(false);
   width: 50px;
   background-color: transparent;
 }
+
+@media (max-width: 992px) {
+  .header {
+    height: 50px !important;
+  }
+}
 </style>
